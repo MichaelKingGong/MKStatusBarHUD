@@ -28,7 +28,7 @@
 ```
 
 ###指示器的图标自定义(图标来自任意地方)
-``objc
+```objc
    [MKStatusBarHUD showMessage:@"从任意地方加载的图片" image:[UIImage
                                                      imageNamed:@"fire"]
 ```
