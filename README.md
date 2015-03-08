@@ -16,11 +16,11 @@
 ```
 ###显示正在登入
 ```objc
-[MKStatusBarHUD [MKStatusBarHUD showLoading:@"正在登入..."];
+[MKStatusBarHUD showLoading:@"正在登入..."];
 ```
 ###退出正在登入
 ```objc
-[MKStatusBarHUD [MKStatusBarHUD hideLoading];
+[MKStatusBarHUD hideLoading];
 ```
 ###指示器的图标自定义(图标来自本机图片）
 ```objc
