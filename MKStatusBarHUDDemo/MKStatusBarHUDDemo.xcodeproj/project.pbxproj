@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31328891AACCCCF0021C47D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B31328881AACCCCF0021C47D /* main.m */; };
+		B313288C1AACCCCF0021C47D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B313288B1AACCCCF0021C47D /* AppDelegate.m */; };
+		B313288F1AACCCCF0021C47D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B313288E1AACCCCF0021C47D /* ViewController.m */; };
+		B31328921AACCCCF0021C47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31328901AACCCCF0021C47D /* Main.storyboard */; };
+		B31328941AACCCCF0021C47D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31328931AACCCCF0021C47D /* Images.xcassets */; };
+		B31328971AACCCCF0021C47D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31328951AACCCCF0021C47D /* LaunchScreen.xib */; };
+		B31328A31AACCCCF0021C47D /* MKStatusBarHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31328A21AACCCCF0021C47D /* MKStatusBarHUDDemoTests.m */; };
+		B31328B01AACCCDD0021C47D /* MKStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B31328AD1AACCCDD0021C47D /* MKStatusBarHUD.bundle */; };
+		B31328B11AACCCDD0021C47D /* MKStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B31328AF1AACCCDD0021C47D /* MKStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B313289D1AACCCCF0021C47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B313287B1AACCCCF0021C47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31328821AACCCCF0021C47D;
+			remoteInfo = MKStatusBarHUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31328831AACCCCF0021C47D /* MKStatusBarHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKStatusBarHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31328871AACCCCF0021C47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31328881AACCCCF0021C47D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B313288A1AACCCCF0021C47D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B313288B1AACCCCF0021C47D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B313288D1AACCCCF0021C47D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B313288E1AACCCCF0021C47D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B31328911AACCCCF0021C47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31328931AACCCCF0021C47D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B31328961AACCCCF0021C47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B313289C1AACCCCF0021C47D /* MKStatusBarHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKStatusBarHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31328A11AACCCCF0021C47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31328A21AACCCCF0021C47D /* MKStatusBarHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKStatusBarHUDDemoTests.m; sourceTree = "<group>"; };
+		B31328AD1AACCCDD0021C47D /* MKStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MKStatusBarHUD.bundle; sourceTree = "<group>"; };
+		B31328AE1AACCCDD0021C47D /* MKStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStatusBarHUD.h; sourceTree = "<group>"; };
+		B31328AF1AACCCDD0021C47D /* MKStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31328801AACCCCF0021C47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31328991AACCCCF0021C47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B313287A1AACCCCF0021C47D = {
+			isa = PBXGroup;
+			children = (
+				B31328851AACCCCF0021C47D /* MKStatusBarHUDDemo */,
+				B313289F1AACCCCF0021C47D /* MKStatusBarHUDDemoTests */,
+				B31328841AACCCCF0021C47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31328841AACCCCF0021C47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31328831AACCCCF0021C47D /* MKStatusBarHUDDemo.app */,
+				B313289C1AACCCCF0021C47D /* MKStatusBarHUDDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31328851AACCCCF0021C47D /* MKStatusBarHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B31328AC1AACCCDD0021C47D /* MKStatusBarHUD */,
+				B313288A1AACCCCF0021C47D /* AppDelegate.h */,
+				B313288B1AACCCCF0021C47D /* AppDelegate.m */,
+				B313288D1AACCCCF0021C47D /* ViewController.h */,
+				B313288E1AACCCCF0021C47D /* ViewController.m */,
+				B31328901AACCCCF0021C47D /* Main.storyboard */,
+				B31328931AACCCCF0021C47D /* Images.xcassets */,
+				B31328951AACCCCF0021C47D /* LaunchScreen.xib */,
+				B31328861AACCCCF0021C47D /* Supporting Files */,
+			);
+			path = MKStatusBarHUDDemo;
+			sourceTree = "<group>";
+		};
+		B31328861AACCCCF0021C47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31328871AACCCCF0021C47D /* Info.plist */,
+				B31328881AACCCCF0021C47D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B313289F1AACCCCF0021C47D /* MKStatusBarHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B31328A21AACCCCF0021C47D /* MKStatusBarHUDDemoTests.m */,
+				B31328A01AACCCCF0021C47D /* Supporting Files */,
+			);
+			path = MKStatusBarHUDDemoTests;
+			sourceTree = "<group>";
+		};
+		B31328A01AACCCCF0021C47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31328A11AACCCCF0021C47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B31328AC1AACCCDD0021C47D /* MKStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B31328AD1AACCCDD0021C47D /* MKStatusBarHUD.bundle */,
+				B31328AE1AACCCDD0021C47D /* MKStatusBarHUD.h */,
+				B31328AF1AACCCDD0021C47D /* MKStatusBarHUD.m */,
+			);
+			path = MKStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31328821AACCCCF0021C47D /* MKStatusBarHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31328A61AACCCCF0021C47D /* Build configuration list for PBXNativeTarget "MKStatusBarHUDDemo" */;
+			buildPhases = (
+				B313287F1AACCCCF0021C47D /* Sources */,
+				B31328801AACCCCF0021C47D /* Frameworks */,
+				B31328811AACCCCF0021C47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKStatusBarHUDDemo;
+			productName = MKStatusBarHUDDemo;
+			productReference = B31328831AACCCCF0021C47D /* MKStatusBarHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B313289B1AACCCCF0021C47D /* MKStatusBarHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31328A91AACCCCF0021C47D /* Build configuration list for PBXNativeTarget "MKStatusBarHUDDemoTests" */;
+			buildPhases = (
+				B31328981AACCCCF0021C47D /* Sources */,
+				B31328991AACCCCF0021C47D /* Frameworks */,
+				B313289A1AACCCCF0021C47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B313289E1AACCCCF0021C47D /* PBXTargetDependency */,
+			);
+			name = MKStatusBarHUDDemoTests;
+			productName = MKStatusBarHUDDemoTests;
+			productReference = B313289C1AACCCCF0021C47D /* MKStatusBarHUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B313287B1AACCCCF0021C47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael King";
+				TargetAttributes = {
+					B31328821AACCCCF0021C47D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B313289B1AACCCCF0021C47D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B31328821AACCCCF0021C47D;
+					};
+				};
+			};
+			buildConfigurationList = B313287E1AACCCCF0021C47D /* Build configuration list for PBXProject "MKStatusBarHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B313287A1AACCCCF0021C47D;
+			productRefGroup = B31328841AACCCCF0021C47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31328821AACCCCF0021C47D /* MKStatusBarHUDDemo */,
+				B313289B1AACCCCF0021C47D /* MKStatusBarHUDDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31328811AACCCCF0021C47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31328921AACCCCF0021C47D /* Main.storyboard in Resources */,
+				B31328971AACCCCF0021C47D /* LaunchScreen.xib in Resources */,
+				B31328941AACCCCF0021C47D /* Images.xcassets in Resources */,
+				B31328B01AACCCDD0021C47D /* MKStatusBarHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B313289A1AACCCCF0021C47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B313287F1AACCCCF0021C47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B313288F1AACCCCF0021C47D /* ViewController.m in Sources */,
+				B31328B11AACCCDD0021C47D /* MKStatusBarHUD.m in Sources */,
+				B313288C1AACCCCF0021C47D /* AppDelegate.m in Sources */,
+				B31328891AACCCCF0021C47D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31328981AACCCCF0021C47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31328A31AACCCCF0021C47D /* MKStatusBarHUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B313289E1AACCCCF0021C47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31328821AACCCCF0021C47D /* MKStatusBarHUDDemo */;
+			targetProxy = B313289D1AACCCCF0021C47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B31328901AACCCCF0021C47D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31328911AACCCCF0021C47D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B31328951AACCCCF0021C47D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31328961AACCCCF0021C47D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B31328A41AACCCCF0021C47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B31328A51AACCCCF0021C47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31328A71AACCCCF0021C47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKStatusBarHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B31328A81AACCCCF0021C47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKStatusBarHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B31328AA1AACCCCF0021C47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKStatusBarHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKStatusBarHUDDemo.app/MKStatusBarHUDDemo";
+			};
+			name = Debug;
+		};
+		B31328AB1AACCCCF0021C47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKStatusBarHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKStatusBarHUDDemo.app/MKStatusBarHUDDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B313287E1AACCCCF0021C47D /* Build configuration list for PBXProject "MKStatusBarHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31328A41AACCCCF0021C47D /* Debug */,
+				B31328A51AACCCCF0021C47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31328A61AACCCCF0021C47D /* Build configuration list for PBXNativeTarget "MKStatusBarHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31328A71AACCCCF0021C47D /* Debug */,
+				B31328A81AACCCCF0021C47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B31328A91AACCCCF0021C47D /* Build configuration list for PBXNativeTarget "MKStatusBarHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31328AA1AACCCCF0021C47D /* Debug */,
+				B31328AB1AACCCCF0021C47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B313287B1AACCCCF0021C47D /* Project object */;
+}
